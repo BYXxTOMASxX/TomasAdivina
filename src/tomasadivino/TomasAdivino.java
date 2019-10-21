@@ -11,11 +11,11 @@ public class TomasAdivino {
 
     public static void main(String[] args) {
         int n = 0,cont = 0, x=0;
-        do{
+        do {
             x = (int) (50 *Math.random());
         } while (x < 10);
-        System.out.println(x);
-        /*Scanner sc = new Scanner(System.in);
+       // System.out.println(x);
+        Scanner sc = new Scanner(System.in);
         do {
             System.out.print("\nIntroduce el valor de X: ");
             n = sc.nextInt();
@@ -27,6 +27,5 @@ public class TomasAdivino {
             cont++;
         } while (n != x);
         System.out.print("Exelente!!! Haz acertado , No. de intentos: "+cont );
-        sc.close();*/
+        sc.close();
     }
-//}
